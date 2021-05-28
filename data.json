@@ -1,0 +1,241 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alexander Karev",
+      "email": "mai.tran22@student.passerellesnumeriques.org",
+      "user": "mai.tran22@gmail.com",
+      "password": "12345",
+      "phone": 1234245,
+      "location": "Nong Son - Quang Nam"
+    },
+    {
+      "id": 2,
+      "name": "Jonathan Johnson",
+      "email": "jonathan@sapientrazorfish.com",
+      "user": "jonathan@gmail.com",
+      "password": "testpassword",
+      "phone": 1234245,
+      "location": "Atlanta, GA"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Milk Tae",
+      "detail_image": "https://thecoffeevn.com/wp-content/uploads/2019/06/H%E1%BB%93ng-tr%C3%A0-S%E1%BB%AFa.png"
+    },
+    {
+      "id": 2,
+      "name": "Coffee",
+      "detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Tea",
+      "detail_image": "https://haitratancuong.com/blog/wp-content/uploads/2020/12/tra-english-breakfast-tea.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Smoothie",
+      "detail_image": "https://www.liveeatlearn.com/wp-content/uploads/2020/09/how-to-make-smoothies-vert.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categories": 1,
+      "name": "Blonde Roast",
+      "detail_image": "https://cubes-asia.com/uploads/editer/images/european-specialty-coffee-market-by-pointbleu-design-blog.jpg",
+      "description": "Lightly roasted coffee that's soft, mellow and flavorful. ",
+      "price": 10000,
+      "sale": 12000,
+      "star": 3
+    },
+    {
+      "id": 2,
+      "categories": 1,
+      "name": "Caffe Misto",
+      "detail_image": "http://list.vn/wp-content/uploads/2021/02/171026-better-coffee-boost-se-329p_67dfb6820f7d3898b5486975903c2e51.fit-1240w.jpg",
+      "description": "A one-to-one mix of fresh brewed coffee ",
+      "price": 12000,
+      "sale": 15000,
+      "star": 1
+    },
+    {
+      "id": 3,
+      "categories": 1,
+      "name": "Decaf Roast",
+      "detail_image": "https://images.foody.vn/res/g94/936274/prof/s576x330/foody-upload-api-foody-mobile-10-190718112033.jpg",
+      "description": "Our signature medium roasted coffee with a smooth",
+      "price": 20000,
+      "sale": 30000,
+      "star": 2
+    },
+    {
+      "id": 4,
+      "categories": 1,
+      "name": "Featured Dark Roast",
+      "detail_image": "https://cdn.tgdd.vn/Files/2020/05/09/1254457/tim-hieu-ve-king-coffee-vi-vua-moi-trong-de-che-ca-phe-co-nhung-san-pham-nao-202005091050347002.jpg",
+      "description": "This full-bodied dark roast coffee has the bold",
+      "price": 35000,
+      "sale": 42000,
+      "star": 5
+    },
+    {
+      "id": 5,
+      "categories": 1,
+      "name": "Nitro Cold Brew",
+      "detail_image": "https://d1cavipgdpnjin.cloudfront.net/wp-content/uploads/introduction-to-coffee-saigon-coffee-acadamy-1.jpg",
+      "description": "Our small-batch cold brew—slow-steeped for a super smooth taste—gets even better. ",
+      "price": 15000,
+      "sale": 20000,
+      "star": 3
+    },
+    {
+      "id": 6,
+      "categories": 1,
+      "name": "Nitro Cold Brew with Sweet Cream",
+      "detail_image": "https://aeonmall-long-bien.com.vn/wp-content/uploads/2021/01/aeon-mall-latte-nong--750x468.jpg",
+      "description": "Served cold, straight from the tap, our Nitro Cold Brew is topped with a float of house-made vanilla sweet cream. ",
+      "price": 12000,
+      "sale": 18000,
+      "star": 5
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "fistname": "Huyen",
+      "lastName": "Nguyen Thi Thanh",
+      "salary": 3500000,
+      "numberPhone": "0869963501",
+      "email": "huyen.thanhcuteHanoi@gmail.com"
+    }
+  ],
+  "bills": [
+    {
+      "id": 1,
+      "userName": "Bui Duc Anh",
+      "list": [
+        {
+          "id": 1,
+          "name": "Caffe Misto"
+        },
+        {
+          "id": 2,
+          "name": "Vanilla Sweet Cream Cold Brew"
+        }
+      ],
+      "total": 40000,
+      "payment": "COD"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userName": "Nguyen Ngoc Lan Trinh",
+      "quantity": 2,
+      "drink": [
+        {
+          "id": 1,
+          "name": "Caffe Misto",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Vanilla Sweet Cream Cold Brew",
+          "quantity": 2
+        }
+      ],
+      "reminder": "",
+      "shiper": "Tran Van Phat",
+      "time": "2021-04-05",
+      "total": "100000"
+    },
+    {
+      "id": 2,
+      "userName": "Nguyen Ngoc Lan Trinh",
+      "drink": [
+        {
+          "id": 1,
+          "name": "Caffe Misto",
+          "quantity": 2
+        },
+        {
+          "id": 2,
+          "name": "Vanilla Sweet Cream Cold Brew",
+          "quantity": 2
+        }
+      ],
+      "reminder": "",
+      "time": "2021-04-05",
+      "shiper": "Nguyen Hong Quan",
+      "total": "100000"
+    }
+  ],
+  "admin": [
+    {
+      "id":1,
+      "username": "hoangtrungquan",
+      "password": "12345",
+      "avatar": "https://scontent-xsp1-2.xx.fbcdn.net/v/t1.6435-9/157692705_803894870217972_8030543524687486606_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=174925&_nc_ohc=sGW9Rm7NivcAX-DglTw&tn=a3kmphk3S9d04ks-&_nc_ht=scontent-xsp1-2.xx&oh=ad9d549c83b29c2d80e32098dc951263&oe=60C7FDC7"
+    },
+    {
+      "id":2,
+      "username": "avietduong",
+      "password": "12345",
+      "avatar": "https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-9/88301432_911200019294783_5807698380159188992_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=TfPKmSOg140AX_9eG6A&_nc_ht=scontent-xsp1-3.xx&oh=167bf0fd394329fa281dc64f5544dba8&oe=60C69448 "
+    }
+    
+
+  ],
+  "shiper": [
+    {
+      "id": 1,
+      "name": "Tran Van Phat",
+      "avatar": "https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-9/88301432_911200019294783_5807698380159188992_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=TfPKmSOg140AX_9eG6A&_nc_ht=scontent-xsp1-3.xx&oh=167bf0fd394329fa281dc64f5544dba8&oe=60C69448",
+      "amoutOfChuyen": 10,
+      "bienSoXe": "74D 4784",
+      "phone": 142544,
+      "salary": 3500000,
+      "status": false
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Hong Quan",
+      "avatar": "https://scontent-xsp1-3.xx.fbcdn.net/v/t1.6435-9/168231014_1584746681714341_2330295906167125081_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=f678rD2yFA8AX9P8ozr&_nc_ht=scontent-xsp1-3.xx&oh=d30a98eaa3484ab6e464bc27cc2d7d0f&oe=60C64C0C",
+      "amoutOfChuyen": 69,
+      "bienSoXe": "77A 5471",
+      "phone": 142544,
+      "salary": 3500000,
+      "status": false
+    }
+  ],
+  "coffeeShop": [
+    {
+      "nameShop": "CUTEST DAY",
+      "salaryShiper": 5000000,
+      "gmail": "duong.a22@student.passerellesnumeriques.org",
+      "numberphone": "0869963501",
+      "address": "101B Le Huu Trac - Sai Gon - Danang"
+    }
+  ],
+  "nofitication": [
+    {
+      "id": 1,
+      "content": "",
+      "time": ""
+    }
+  ],
+  "comments":[
+    {
+      "id":1,
+      "user":[{
+        "id":1,
+        "name":"Alexander Karev"
+      }],
+      "content":"Do uong rat ngon vaf thu vi"
+    }
+  ]
+}
